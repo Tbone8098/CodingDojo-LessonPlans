@@ -1,0 +1,110 @@
+h1 {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    background-color: brown;
+    color: tan;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    border: 1px solid white;
+}
+
+h3 {
+    color: green;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.question {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    padding: 0.25em 1em;
+    line-height: 2em;
+    background: rgb(189, 224, 253);
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-bottom: 5px dotted black;
+}
+
+.answer {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    padding: 0.25em 1em;
+    line-height: 2em;
+    background: rgb(151, 235, 186);
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-top: 5px dotted black;
+}
+
+.sidenote {
+    padding: 0.5em;
+    background: darkblue;
+    border: 1px solid black;
+    line-height: 3em;
+}
+
+.important {
+    padding: 0.1em;
+    color: red;
+    font-weight: bold;
+    background: yellow;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.obj {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    color: black;
+    border: 2px solid black;
+}
+
+.obj .title {
+    font-weight: bolder;
+}
+
+/* highlight */
+
+.highlight-yellow {
+    padding: 0.25em;
+    color: black;
+    background: yellow;
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+.highlight-green {
+    padding: 0.25em;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+.highlight-tan {
+    padding: 0.25em;
+    color: black;
+    background: tan;
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+.highlight-grey {
+    padding: 0.25em;
+    color: black;
+    background: grey;
+    border-radius: 5px;
+    line-height: 2em;
+}
