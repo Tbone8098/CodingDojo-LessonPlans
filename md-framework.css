@@ -75,6 +75,25 @@ h3 {
     font-weight: bolder;
 }
 
+.watchout-bg {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+}
+
+.watchout-text {
+    padding: 0.25em;
+    color: yellow;
+}
+
+.obj_checkoff {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    color: yellowgreen;
+    border: 2px dotted yellowgreen;
+}
+
 /* highlight */
 
 .highlight-yellow {
@@ -108,3 +127,4 @@ h3 {
     border-radius: 5px;
     line-height: 2em;
 }
+
