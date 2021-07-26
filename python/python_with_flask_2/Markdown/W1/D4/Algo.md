@@ -1,3 +1,9 @@
+# W1D4 Algos
+
+## Problem 1
+
+### Student Version
+
 ```javaScript
 
 /*
@@ -28,14 +34,58 @@ const expected4 = false;
  * @returns {boolean} Whether the given str is a palindrome or not.
  */
 function isPalindrome(str) {}
+```
 
-// ******************************************************************************
-// ******************************************************************************
-// ******************************************************************************
+### Answer
 
-/*
+```js
+/**
+ * - Time: O(n/2) -> O(n) linear.
+ * - Space: O(1) constant.
+ */
+function isPalindrome(str) {
+  for (let i = 0; i < Math.floor(str.length / 2); i++) {
+    // Looping inwards from both sides.
+    let leftChar = str[i];
+    let rightChar = str[str.length - 1 - i];
+
+    if (leftChar !== rightChar) {
+      return false; // early exit
+    }
+  }
+  return true;
+}
+
+// **************************************************
+
+/**
+ * - Time: O(n/2) -> O(n) linear.
+ * - Space: O(1) constant.
+ */
+function isPalindrome(str) {
+  for (let i = 0; i < Math.floor(str.length / 2); i++) {
+    // Looping inwards from both sides.
+    let leftChar = str[i];
+    let rightChar = str[str.length - 1 - i];
+
+    if (leftChar !== rightChar) {
+      return false; // early exit
+    }
+  }
+  return true;
+}
+```
+
+<hr>
+
+## Problem 2
+
+### Student Version
+
+```js
+/* 
   Longest Palindrome
-  For this challenge, we will look not only at the entire string provided, but also at the substrings within it. Return the longest palindromic substring.
+  For this challenge, we will look not only at the entire string provided, but also at the substrings within it. Return the longest palindromic substring. 
   Strings longer or shorter than complete words are OK.
   All the substrings of "abc" are:
   a, ab, abc, b, bc, c
@@ -60,53 +110,11 @@ const expected3 = "e racecar e";
  * @returns {string} The longest palindromic substring from the given string.
  */
 function longestPalindromicSubstring(str) {}
-
 ```
 
-## Answers
+### Answer
 
-```javaScript
-/**
- * - Time: O(n/2) -> O(n) linear.
- * - Space: O(1) constant.
- */
-function isPalindrome(str) {
-  for (let i = 0; i < Math.floor(str.length / 2); i++) {
-    // Looping inwards from both sides.
-    let leftChar = str[i];
-    let rightChar = str[str.length - 1 - i];
-
-    if (leftChar !== rightChar) {
-      return false; // early exit
-    }
-  }
-  return true;
-}
-
-// ***************************************************************
-// ***************************************************************
-/**
- * - Time: O(n/2) -> O(n) linear.
- * - Space: O(1) constant.
- */
-function isPalindrome(str) {
-  for (let i = 0; i < Math.floor(str.length / 2); i++) {
-    // Looping inwards from both sides.
-    let leftChar = str[i];
-    let rightChar = str[str.length - 1 - i];
-
-    if (leftChar !== rightChar) {
-      return false; // early exit
-    }
-  }
-  return true;
-}
-
-// ***************************************************************
-// ***************************************************************
-// ***************************************************************
-
-
+```js
 /**
  * - Time: O(n^2 * k). The n^2 part comes from the j loop.
  *    k is the iterations of slice.
@@ -170,5 +178,4 @@ function longestPal(str) {
   }
   return longestPal;
 }
-
 ```

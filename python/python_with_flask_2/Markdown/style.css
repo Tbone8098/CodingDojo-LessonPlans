@@ -1,0 +1,13 @@
+.box {
+  margin: 1em 0;
+  padding: 0.5em;
+  border: 1px solid white;
+  width: fit-content;
+}
+.pill {
+  border-radius: 10px;
+}
+.white {
+  background-color: white;
+  color: black;
+}

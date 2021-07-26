@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <!-- <link rel='stylesheet'
+        href='https://res.cloudinary.com/dmnmjsr9b/raw/upload/v1626800542/framework/css_framework.css'> -->
+    <link rel='stylesheet' href='../../../../framework.css'>
+    <link rel='stylesheet' href='../../../../style.css'>
+    <title>Lesson Plan W1D1</title>
+</head>
+
+<body>
+    <div class='position-sticky bg-white'>
+        <div class='row'>
+            <div class='col-l-3 col-l-start-4'>
+                <div class='row'>
+                    <h1>W1D1 Morning</h1>
+                </div>
+                <div class='row'>
+                    <div class='l-5'>
+                        <a href='./Algo.html' class='btn'>Algos</a>
+                        <a href='./Morning.html' class='btn bg-secondary'>Morning</a>
+                        <a href='./Afternoon.html' class='btn bg-primary-1 txt-secondary-1'>Afternoon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-l-5 flex-col align-center'>
+                <h2>Objectives</h2>
+                <div class="">
+                    <ul>
+                        <li>Students will understand the difference between js and python syntax</li>
+                        <li>Students will understand python data type</li>
+                    </ul>
+                </div>
+            </div>
+            <div class='col-l-5 flex-col align-center'>
+                <h2>Overview</h2>
+                <div>
+                    <input type='checkbox'> Python Syntax<br>
+                    <input type='checkbox'> Data Types<br>
+                    <input type='checkbox'> Conditionals<br>
+                    <input type='checkbox'> Loops<br>
+                </div>
+            </div>
+        </div>
+        <div class='margin-tb-5'>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="section">
+            <h2>Python Syntax</h2>
+            <div class="row">
+                <div>
+                    <h3>Things to Know</h3>
+                    <ul>
+                        <li>Python is a indend based language. { } -> tabing in</li>
+                        <li>You can see the difference by turning on whitespaces</li>
+                    </ul>
+                    <div class="question">
+                        <p>What examples of things do you know that are indent based?</p>
+                        <p>ANSWER:</p>
+                        <ul>
+                            <li>Paragraphs</li>
+                            <li>Lists</li>
+                            <li>Conventions</li>
+                            <ul>
+                                <li>Most variable Names</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3>Code Blocks</h3>
+                    <div class="question">
+                        <p>What is a code block?</p>
+                        <p>ANSWER:</p>
+                        <p>A set of lines of code that belong together</p>
+                    </div>
+                    <h3>Examples of Code blocks</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>JavaScript</th>
+                                <th>Python</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>function</td>
+                                <td>def</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>if, else if, else</td>
+                                <td>if, elif, else</td>
+                                <td>Conditionals</td>
+                            </tr>
+                            <tr>
+                                <td>for, while</td>
+                                <td>for, while</td>
+                                <td>Loops</td>
+                            </tr>
+                            <tr>
+                                <td>Classes</td>
+                                <td>Classes</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="section">
+            <h2>Data Types</h2>
+            <div class="row">
+                <div>
+                    <h3>Primitive Data Types</h3>
+                    <table>
+                        <tr>
+                            <td>Booleans</td>
+                            <td>True or False</td>
+                        </tr>
+                        <tr>
+                            <td>Numbers</td>
+                            <td>Integers, both pos and neg</td>
+                        </tr>
+                        <tr>
+                            <td>Strings</td>
+                            <td>Literal Text</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <h3>Composite Data Types</h3>
+                    <table>
+                        <tr>
+                            <td>Tuples</td>
+                            <td>Immutable: cannot be changed</td>
+                        </tr>
+                        <tr>
+                            <td>Lists</td>
+                            <td>Indicated by the [] brackets</td>
+                        </tr>
+                        <tr>
+                            <td>Dictionaries</td>
+                            <td>Indicated by the {} </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="flex-col align-center box bg-accent-1">
+            <h2>Strings</h2>
+            <div class="question">
+                <p>What if we have a variable that we want to insert into a string?</p>
+            </div>
+            <div class="row">
+                <div>
+                    <h3>Format Strings</h3>
+                    <ol>
+                        <li>%-formatting</li>
+                        <div class="code">
+                            <p>string_type = "%-formatting"</p>
+                            <p>"this is a %{}" % (string_type)</p>
+                        </div>
+                        <li>string.format()</li>
+                        <div class="code">
+                            <p>string_type = "string.format()"</p>
+                            <p>"this is a {}".format(string_type)</p>
+                        </div>
+                        <li>f-strings</li>
+                        <div class="code">
+                            <p>string_type = "f-string"</p>
+                            <p>f"this is a {string_type}"</p>
+                        </div>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Built in Function</h3>
+                    <div class="question">
+                        <h3>Group Activity - 5 minutes</h3>
+                        <p>In groups first look at the name and see if you can think of a output that makes sense. Then
+                            find definitions online, we will share with the class afterward </p>
+                    </div>
+                    <ol>
+                        <div class="row">
+                            <div class="col-l-4">
+                                <h3>Group 1</h3>
+                                <li>string.upper()</li>
+                                <li>string.lower()</li>
+                                <li>string.capitalize()</li>
+                                <li>string.count()</li>
+                                <li>string.split()</li>
+                            </div>
+                            <div class="col-l-4">
+                                <h3>Group 2</h3>
+                                <li>string.find()</li>
+                                <li>string.join()</li>
+                                <li>string.strip()</li>
+                                <li>string.islower()</li>
+                                <li>string.isdigit()</li>
+                            </div>
+                            <div class="col-l-4">
+                                <h3>Group 3</h3>
+                                <li>string.istitle()</li>
+                                <li>string.isalpha()</li>
+                                <li>string.endswith()</li>
+                                <li>string.format()</li>
+                                <li>string.swapcase()</li>
+                            </div>
+                        </div>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="flex-col align-center">
+            <h2>Lists</h2>
+            <div class="question">
+                <p>What is a list? What are some examples?</p>
+                <p>ANSWER:</p>
+                <p>Something that contains "items" that are indexed</p>
+            </div>
+            <p>There are more built in function that go along with <u><i>"list"</i></u> specifically</p>
+            <div class="question">
+                <p>What are some functions that you know from JavaScript when dealing with lists?</p>
+                <ul>
+                    <li>push</li>
+                    <li>pop</li>
+                    <li>length</li>
+                </ul>
+            </div>
+            <div class="code">
+                <p>some_list = ['this', 'that', 'the other']</p>
+                <p>some_list.push("one more")</p>
+            </div>
+        </div>
+        <div class="flex-col align-center">
+            <h2>Dictionaries</h2>
+            <div class="question">
+                <h3>Group Activity - 3 minutes</h3>
+                <p>When thinking about the book... answer these questions</p>
+                <ul>
+                    <li>What is a dictionary?</li>
+                    <li>What makes it a dictionary?</li>
+                    <li>How would you use a dictionary?</li>
+                </ul>
+            </div>
+            <p>Diction are known by their { } curly brackets</p>
+            <div class="code">
+                <p>new_dictionary = {}</p>
+                <p>OR</p>
+                <p>new_dictionary = {</p>
+                <p> "key1" : "Value one",</p>
+                <p> "key2" : "Value two",</p>
+                <p>}</p>
+            </div>
+            <p>Adding to a dictionary after it is made...</p>
+            <div class="code">
+                <p>new_dictionary['name'] = "value"</p>
+                <p>new_dictionary['key1'] = "new value for key 1"</p>
+            </div>
+        </div>
+    </div>
+    <div class="row box bg-accent-1">
+        <h2>Tuples</h2>
+
+    </div>
+
+</body>
+
+</html>
