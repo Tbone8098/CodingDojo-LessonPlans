@@ -1,0 +1,123 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// },
+	"link up the css file": {
+		"scope": "markdown",
+		"prefix": "link",
+		"body": [
+			"<link rel=\"stylesheet\" href=\"${1:css file location}\">"
+		],
+		"description": "link up the css file"
+	},
+	"h1": {
+		"scope": "markdown",
+		"prefix": "h1",
+		"body": [
+			"<h1>${1}</h1>"
+		],
+		"description": "h1"
+	},
+	"checkbox": {
+		"scope": "markdown",
+		"prefix": "checkbox",
+		"body": [
+			"<input type=\"checkbox\">",
+		],
+		"description": "checkbox"
+	},
+	"overview": {
+		"scope": "markdown",
+		"prefix": "section",
+		"body": [
+			"<div class=\"overview\">",
+			"",
+			"${1:content}",
+			"",
+			"</div>"
+		],
+		"description": "overview"
+	},
+	"div": {
+		"scope": "markdown",
+		"prefix": "div",
+		"body": [
+			"<div>",
+			"${1:content}",
+			"</div>"
+		],
+		"description": "div"
+	},
+	"highlight": {
+		"scope": "markdown",
+		"prefix": "highlight",
+		"body": [
+			"<span class=\"highlight\">${1:content}</span>"
+		],
+		"description": "highlight"
+	},
+	"table 2 columns": {
+		"scope": "markdown",
+		"prefix": "table-col-2",
+		"body": [
+			"| ${1:col 1 info} | ${2:col 2 info} |",
+			"| ---- | ---- |"
+		],
+		"description": "table 2 columns"
+	},
+	"table 3 columns": {
+		"scope": "markdown",
+		"prefix": "table-col-3",
+		"body": [
+			"| col${1:col 1 info}1 | ${2:col 2 info} | ${3:col 3 info} |",
+			"| ---- | ---- | ---- |"
+		],
+		"description": "table 3 columns"
+	},
+	"table 4 columns": {
+		"scope": "markdown",
+		"prefix": "table-col-4",
+		"body": [
+			"| col${1:col 1 info}1 | ${2:col 2 info} | ${3:col 3 info} | ${4:col 4 info} |",
+			"| ---- | ---- | ---- | ---- |"
+		],
+		"description": "table 3 columns"
+	},
+	"table row 4 ": {
+		"scope": "markdown",
+		"prefix": "table-row-4",
+		"body": [
+			"| ${1:item 1} | ${2:item 2} | ${3:item 3} | ${4:item 4} |"
+		],
+		"description": "table row 4 "
+	},
+	"table row 3": {
+		"scope": "markdown",
+		"prefix": "table-row-3",
+		"body": [
+			"| ${1:item 1} | ${2:item 2} | ${3:item 3} |"
+		],
+		"description": "table row 3"
+	},
+	"table row 2": {
+		"scope": "markdown",
+		"prefix": "table-row-2",
+		"body": [
+			"| ${1:item 1} | ${2:item 2} |"
+		],
+		"description": "table row 2"
+	}
+}
