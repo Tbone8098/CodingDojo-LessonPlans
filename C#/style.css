@@ -1,0 +1,33 @@
+h1 {
+    color: green;
+}
+h2 { 
+    color: yellow;
+}
+
+h3 {
+    color: rebeccapurple;
+}
+.overview {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    background-color: whitesmoke;
+    color: black;
+}
+.highlight {
+    padding: 0 0.15em;
+    background-color: yellow;
+    color: black;
+}
+
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
